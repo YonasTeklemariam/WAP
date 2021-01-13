@@ -1,0 +1,57 @@
+h2 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  font-style: oblique;
+  color: lightskyblue;
+}
+.hello {
+  color: yellow;
+}
+
+.intro {
+  color: darkblue;
+  font-size: 1.4em;
+}
+.myTrailers {
+  color: darkred;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 0.875em;
+  font-weight: bold;
+  font-style: italic;
+  color: lightskyblue;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: darkolivegreen;
+  font-size: 100%;
+  font-family: cursive, sans-serif;
+}
+body > ul {
+  color: white;
+}
+
+body > ol {
+  color: white;
+}
+#self {
+  color: cornsilk;
+}
+
+/* unvisited link */
+a:link {
+  color: #ff0000;
+}
+/* visited link */
+a:visited {
+  color: #0c580c;
+}
+a:hover {
+  color: blanchedalmond;
+}
+/* click on a link */
+a:active {
+  color: #0000ff;
+}

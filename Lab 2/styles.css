@@ -17,6 +17,11 @@ h2 {
   font-size: 1.2em;
 }
 
+td {
+  vertical-align: text-bottom;
+  text-align: initial;
+}
+
 p {
   font-size: 0.875em;
   font-weight: bold;

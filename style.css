@@ -1,0 +1,21 @@
+#heading {
+  background-color: rgb(38, 184, 38);
+}
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: rgb(167, 161, 161);
+}
+caption {
+  font-size: 1.5em;
+  font-family: cursive, "Courier New", Courier, monospace;
+}
+body {
+  background-color: rgb(243, 235, 164);
+}

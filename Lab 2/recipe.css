@@ -1,0 +1,92 @@
+body {
+  color: #404040;
+  font-family: Georgia, Garamond, sans-serif;
+}
+/* .horizontaline {
+  /* border-style: solid; */
+/* border-collapse: collapse; */
+/* } */
+
+#meringue {
+  font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#part1 {
+  line-height: 5%;
+  word-spacing: 0%;
+  text-indent: 0%;
+}
+#ingredient {
+  font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  /* text-align: center; */
+  font-size: 18pt;
+  text-decoration: underline;
+}
+#direction {
+  font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  /* text-align: center; */
+  font-size: 18pt;
+  text-decoration: underline;
+}
+#userComment {
+  font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  /* text-align: center; */
+  font-size: 18pt;
+  text-decoration: underline;
+}
+#links {
+  font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  /* text-align: center; */
+  font-size: 18pt;
+  text-decoration: underline;
+}
+.Dsteps {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.userComment {
+  font-weight: bold;
+}
+#cake {
+  text-decoration: line-through;
+}
+#part5 {
+  font-style: italic;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#part5 tr:nth-child(odd) {
+  background-color: rgb(243, 243, 144);
+}
+#copyRight {
+  text-align: right;
+  font-family: monospace;
+}
+
+a:link {
+  color: #a4a400;
+}
+/* visited link */
+a:visited {
+  color: #0c580c;
+}
+a:hover {
+  color: blanchedalmond;
+}
+/* click on a link */
+a:active {
+  color: #1414d6;
+}

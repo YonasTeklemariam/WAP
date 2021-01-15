@@ -1,0 +1,113 @@
+body {
+  background-image: url("skeleton_files/background.png");
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+#part1 {
+  background-image: url("skeleton_files/bannerbg.png");
+}
+#Rancid {
+  display: inline;
+  margin: 25%;
+}
+#year {
+  font-size: 24pt;
+  text-align: center;
+  font-weight: bold;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-shadow: 3px 3px #999999;
+}
+#mainBox {
+  /* margin-right: 25%;
+  margin-left: 25%; */
+  border-radius: 20px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: gray;
+  /* max-block-size: 800px; */
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(119, 187, 42);
+  overflow: auto;
+}
+#critics {
+  background-image: url("skeleton_files/rbg.png");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* border-radius: inherit; */
+}
+#leftPart {
+  background-image: url("skeleton_files/background.png");
+  float: left;
+  overflow: auto;
+  max-width: 550px;
+}
+#rightPart {
+  float: right;
+  overflow: auto;
+  max-width: 250px;
+}
+#rightDown {
+  float: right;
+  overflow: auto;
+  max-width: 250px;
+}
+#criticsPercent {
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+  vertical-align: top;
+}
+#Rotten {
+  border-top-left-radius: 15px;
+}
+#overview {
+  border-top-right-radius: 15px;
+}
+#leftLeft {
+  /* border-radius: 20px;
+  border: grey;
+  border-style: solid; */
+  padding: 5px;
+  float: left;
+  overflow: auto;
+  width: fit-content;
+  max-width: 45%;
+  margin: auto;
+}
+#leftRight {
+  /* border-radius: 20px;
+  border: grey;
+  border-style: solid; */
+  padding: 5px;
+  float: right;
+  overflow: auto;
+  width: fit-content;
+  max-width: 45%;
+  margin: auto;
+}
+
+.left11 {
+  border-radius: 20px;
+  border: grey;
+  border-style: solid;
+  padding: 5px;
+}
+
+.left12 {
+  border-radius: 20px;
+  border: grey;
+  border-style: solid;
+  padding: 5px;
+}
+.span {
+  text-align: center;
+  vertical-align: middle;
+}
+.last {
+  text-align: center;
+  font-weight: bold;
+}
+#checker {
+  float: right;
+}

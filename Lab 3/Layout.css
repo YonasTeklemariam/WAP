@@ -78,9 +78,15 @@ body {
   border: 2px;
   border-bottom: blue;
   border-style: dashed;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }
 #part3-3 {
   border: 2px;
   border-bottom: blue;
   border-style: dashed;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <form action="">
+        First Name <br />
+        <input type="text" placeholder="Enter Your Name" size="150" required />
+        <br />
+        <br />
+        Middle Name (Optional) <br />
+        <input type="text" placeholder="Enter Your Middle Name" size="150" />
+        <br />
+        <br />Last Name <br />
+        <input
+          type="text"
+          placeholder="Enter Your Last Name"
+          size="150"
+          required
+        />
+        <br /><br />
+        Social socurity number (SSN) <br />
+        <input
+          type="number"
+          placeholder="Enter your SSN"
+          pattern="^([0-9]{3}-[0-9]{2}-[0-9]{4})$"
+          size="10"
+          maxlength="10"
+          required
+        />
+        <br />
+        <br />
+        Suffix (Optional)
+        <input type="text" placeholder="Suffix" /> <br />
+        <br />
+        Residential address line 1 <br />
+        <input
+          type="text"
+          placeholder="Enter your residence address 1"
+          size="150"
+          required
+        />
+        <br />
+        <br />
+        <div id="address">
+          <div>
+            City <br />
+            <input type="text" placeholder="Enter Your City" required />
+          </div>
+          <div>
+            State <br />
+            <input list="state-list" name="State" />
+            <datalist id="state-list">
+              <option value="Virginia"></option>
+              <option value="Iowa"></option>
+              <option value="California"></option>
+              <option value="Texas"></option>
+              <option value="NewYork"></option>
+              <option value="New Jersey"></option>
+            </datalist>
+          </div>
+          <div>
+            Zip Code <br />
+            <input
+              type="number"
+              placeholder="Enter your zip code"
+              pattern="^([0-9]{5})$"
+              required
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+        Primary phone number <br />
+        <input
+          type="number"
+          pattern="^(\(?[0-9]{3})\)? \\s?[0-9]{3}(-)?[0-9]{4}$"
+          placeholder="Enter your phone number"
+          required
+        />
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="phone-number" value="mobile-phone" />Mobile
+          phone</label
+        >
+        <label>
+          <input type="radio" name="phone-number" value="home-number" /> Home
+          phone</label
+        >
+        <br />
+        <br />Email address <br />
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          size="150"
+          required
+        />
+        <br />
+        <br />
+        <div id="DOB">
+          Date of birth
+          <br />
+          <div>
+            MM <br />
+            <input
+              type="number"
+              placeholder="Month"
+              pattern="^([1-9]|1[0-2])$"
+              required
+            />
+          </div>
+          <div>
+            DD <br />
+            <input
+              type="number"
+              placeholder="Day"
+              pattern="^([0-9]|[1-2][0-9]|3[0-1])$"
+              required
+            />
+          </div>
+          <div>
+            Year <br />
+            <input
+              type="number"
+              placeholder="Year"
+              pattern="^(19[0-9]{2}|2000)$"
+              required
+            />
+          </div>
+        </div>
+
+        <br /><br />
+        <fieldset id="fieldset">
+          <legend>Credit cards:</legend>
+          <input type="radio" name="CreditCard" value="visa" /> Visa
+          <input type="radio" name="CreditCard" value="mastercard" /> MasterCard
+          <input type="radio" name="CreditCard" value="amex" /> American Express
+          <br />
+          <br />
+          <input
+            type="text"
+            placeholder="Enter the name as it appear in the card"
+            size="140"
+            required
+          />
+          <br />
+          <br />
+          <input
+            type="number"
+            placeholder="Enter the numbers from the card"
+            pattern="^([0-9]{13,19}$"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Enter the security code"
+            pattern="^([0-9]{3,4})$"
+            required
+          />
+          <input type="date" required />
+        </fieldset>
+        <br /><br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
